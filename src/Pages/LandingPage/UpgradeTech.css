@@ -1,0 +1,30 @@
+.hero-section {
+    background-color: #002400; /* Dark green background */
+    padding: 60px 0;
+    min-height: 300px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #b0b0b0;
+  }
+  
+  .shop-now-btn {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

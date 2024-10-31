@@ -1,0 +1,9 @@
+.our-portfolio-section .row .col-md-3 {
+    border-right: 2px solid #EAF7EB; /* Light gray border between counters */
+    padding: 20px; /* Optional: add padding for spacing */
+  }
+  
+  .our-portfolio-section .row .col-md-3:last-child {
+    border-right: none; /* Remove border from the last column */
+  }
+  

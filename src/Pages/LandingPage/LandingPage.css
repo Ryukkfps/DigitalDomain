@@ -1,0 +1,39 @@
+/* Set html and body to full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Set the main page container to cover the full viewport */
+.mainpage {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Prevent scroll if not necessary */
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url('../../assets/pexels-mintworkspace-18304033.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Button styling */
+.custom-btn {
+    background-color: #4a9a00;
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #347500;
+    color: white;
+}
