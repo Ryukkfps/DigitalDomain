@@ -7,6 +7,7 @@ import Services from './Pages/Services/ServicesPage';
 import OurCompanies from './Pages/OurCompanies/OurCompanies';
 import ContactUs from './Pages/ContactUs/ContactUs'
 import WhatsappButton from './Pages/ContactUs/Whatsapp';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path = "/ContactUs" element={<ContactUs/>}/>
       </Routes>
       <WhatsappButton/>
+      <Footer/>
     </Router>
   );
 }

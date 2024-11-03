@@ -1,0 +1,17 @@
+.shop-now-btn {
+    background-color: transparent;
+    color: black;
+    border: solid;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: rgb(8, 105, 8);
+    color: white;
+    transform: scale(1.0);
+  }
+  
