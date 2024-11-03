@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import comp1 from "../../assets/comp1.jpeg";
+import AffiliationsSection from "./OurAffiliations";
 
 const OurCompanies = () => {
   return (
@@ -183,6 +184,7 @@ const OurCompanies = () => {
           </Col>
         </Row>
       </Container>
+      <AffiliationsSection/>
     </>
   );
 };
