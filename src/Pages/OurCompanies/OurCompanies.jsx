@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import comp1 from "../../assets/comp1.jpeg";
 import AffiliationsSection from "./OurAffiliations";
+import StayConnected from "../../Components/StayConnected";
 
 const OurCompanies = () => {
   return (
@@ -185,6 +186,9 @@ const OurCompanies = () => {
         </Row>
       </Container>
       <AffiliationsSection/>
+      <div className="mt-5">
+        <StayConnected />
+      </div>
     </>
   );
 };
