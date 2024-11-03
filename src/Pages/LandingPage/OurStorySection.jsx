@@ -20,9 +20,20 @@ const OurStorySection = () => {
           <h2 className="font-weight-bold">Our Story</h2>
           <p className="mx-auto" style={{ maxWidth: "600px" }}>
             We started in the year 1993 and today we are one of the oldest IT
-            hardware and software providers in Uttar Pradesh. We believe that
-            our mission is to empower businesses with cutting-edge technology
-            solutions that enhance efficiency, productivity, and innovation.
+            Hardware and software providers in Uttar Pradesh. We believe that
+            Our mission is to empower businesses with cutting-edge technology
+            solutions that enhance efficiency, productivity, and innovation. We
+            are committed to providing reliable and high-quality IT hardware
+            products that meet the evolving needs of our customers, while
+            fostering long-term partnerships built on trust and exceptional
+            service.</p>
+            <p>
+            Our vision is to be the leading provider of innovative IT
+            hardware solutions, recognized for our commitment to excellence,
+            customer satisfaction, and technological advancement. We strive to
+            continuously push the boundaries of what's possible in the industry,
+            driving digital transformation and empowering businesses to thrive
+            in the ever-evolving digital landscape.
           </p>
           <button className="btn btn-success mt-3">Read More</button>
         </div>

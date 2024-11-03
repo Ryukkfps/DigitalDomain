@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/digital domain.svg";
 
 function Navbar() {
@@ -8,9 +8,9 @@ function Navbar() {
       <div className="container">
         <Link className="navbar-brand mr-auto" to="/">
           <img
-            src={logo} 
+            src={logo}
             alt="Logo"
-            style={{ width: '50px', height: '50px' }}
+            style={{ width: "50px", height: "50px" }}
           />
         </Link>
         <button
@@ -24,7 +24,10 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center ml-auto" id="navbarNav">
+        <div
+          className="collapse navbar-collapse justify-content-center ml-auto"
+          id="navbarNav"
+        >
           <ul className="navbar-nav">
             <li className="nav-item active">
               <Link className="nav-link" to="/">
@@ -32,19 +35,19 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <Link className="nav-link" to="/About">
                 ABOUT
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <Link className="nav-link" to="/Services">
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#companies">
+              <Link className="nav-link" to="/OurCompanies">
                 OUR COMPANIES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
