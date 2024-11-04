@@ -24,7 +24,7 @@ function Navbar() {
           <img
             src={logo}
             alt="Logo"
-            style={{ width: "75px", height: "75px" }}
+            style={{ width: "75px", height: "75px", borderRadius: "37.5px" }}
           />
         </Link>
         <button
