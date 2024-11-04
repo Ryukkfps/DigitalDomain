@@ -1,6 +1,6 @@
 .shop-now-btn {
-    background-color: transparent;
-    color: black;
+    background-color: #439401 !important;
+    color: black !important;
     border: solid;
     font-size: 1rem;
     font-weight: bold;
@@ -10,8 +10,18 @@
   }
   
   .shop-now-btn:hover {
-    background-color: rgb(8, 105, 8);
-    color: white;
+    background-color: #347500 !important;
+    color: white !important;
     transform: scale(1.0);
   }
   
+  /* Styles for sticky navbar */
+.sticky-navbar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays on top of other elements */
+  background-color: #fff; /* Adjust background color as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for visual effect */
+  padding: 10px 20px; /* Adjust padding as needed */
+}

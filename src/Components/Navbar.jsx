@@ -2,22 +2,29 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/digital domain.svg";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const navigate = useNavigate();
+  const handleNavigateto = () => {
+    navigate("/ContactUs");
+  };
+
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-navbar">
       <div className="container">
         <Link className="navbar-brand mr-auto" to="/">
           <img
             src={logo}
             alt="Logo"
-            style={{ width: "50px", height: "50px" }}
+            style={{ width: "75px", height: "75px" }}
           />
         </Link>
         <button
@@ -64,7 +71,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <button className="shop-now-btn">SHOP NOW</button>
+        <button className="shop-now-btn" onClick={handleNavigateto}>SHOP NOW</button>
       </div>
     </nav>
   );

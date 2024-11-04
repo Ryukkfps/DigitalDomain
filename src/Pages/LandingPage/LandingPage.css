@@ -7,7 +7,7 @@ html, body {
 /* Set the main page container to cover the full viewport */
 .mainpage {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden; /* Prevent scroll if not necessary */
 }
 
@@ -46,12 +46,12 @@ html, body {
 
 /* Button styling */
 .custom-btn {
-    background-color: #4a9a00;
-    color: white;
+    background-color: #439401!important;
+    color: black !important;
     border: none;
 }
 
 .custom-btn:hover {
-    background-color: #347500;
-    color: white;
+    background-color: #347500 !important;
+    color: white !important;
 }

@@ -4,18 +4,18 @@ import "./Testimonials.css";
 const testimonials = [
   {
     rating: "★★★★★",
-    text: "Outstanding service, great products, and friendly staff. Highly recommend Digital Domain!",
-    author: "Rohan Gupta",
-  },
-  {
-    rating: "★★★★",
-    text: "The quality of the gaming PC I purchased exceeded my expectations. Thank you, Tritech Enterprises!",
-    author: "Kanishk Srivastava",
+    text: "Completely satisfied with the services. Pankaj bhai and his team are very cooperative. I would always recomend to visit the store for any software/ hardware glitch in the system. Thank you so much.",
+    author: "Anu Mehrotra",
   },
   {
     rating: "★★★★★",
-    text: "I found the perfect workstation for my needs at Digital Domain. Impressed with the service!",
-    author: "Pratyaksh Kapoor",
+    text: "Very good and cooperative place for any kind of hardware or software issues",
+    author: "Vikas Chandra Srivastava",
+  },
+  {
+    rating: "★★★★★",
+    text: "The owner of the shop is very polite and of helpful nature",
+    author: "Revant Kumar Singh",
   },
   {
     rating: "★★★★★",

@@ -3,8 +3,17 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import image from "../../assets/pic2.jpg";
 import keyboardImage from "../../assets/keyboardwithledlights.jpeg";
 import StayConnected from "../../Components/StayConnected";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function AboutPage() {
+
+  const location = useLocation();
+
+  // Scroll to top when the component mounts or location changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <Container

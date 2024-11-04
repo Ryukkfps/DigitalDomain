@@ -8,6 +8,8 @@ import OurCompanies from './Pages/OurCompanies/OurCompanies';
 import ContactUs from './Pages/ContactUs/ContactUs'
 import WhatsappButton from './Pages/ContactUs/Whatsapp';
 import Footer from './Components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (

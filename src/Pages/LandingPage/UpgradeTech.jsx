@@ -1,7 +1,17 @@
 import React from "react";
 import "./UpgradeTech.css";
+import { useNavigate } from "react-router-dom";
+
+
+
 
 const UpgradeTech = () => {
+  const navigate = useNavigate();
+
+  const handleclick = () => {
+    navigate("/ContactUs");
+  }
+
   return (
     <div className="hero-section d-flex align-items-center justify-content-center text-center gap-5">
       <div className="hero-section d-flex flex-column align-items-center justify-content-center text-center">
@@ -11,7 +21,7 @@ const UpgradeTech = () => {
           accessories.
         </p>
       </div>
-      <button className="shop-now-btn mt-3">Shop Now</button>
+      <button className="shop-now-btn mt-3" onClick={handleclick}>Shop Now</button>
     </div>
   );
 };

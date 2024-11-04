@@ -2,8 +2,16 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import image from "../../assets/pic2.jpg";
 // import "./OurStorySection.css"; // Optional: for any additional custom styling
+import { useNavigate } from "react-router-dom";
 
 const OurStorySection = () => {
+const navigate = useNavigate();
+
+const handleclick =() =>
+{
+  navigate("/About");
+}
+
   return (
     <div
       className="our-story-section py-5 text-center"
@@ -35,7 +43,7 @@ const OurStorySection = () => {
             driving digital transformation and empowering businesses to thrive
             in the ever-evolving digital landscape.
           </p>
-          <button className="btn btn-success mt-3">Read More</button>
+          <button className="btn btn-success mt-3" onClick={handleclick}>Read More</button>
         </div>
       </div>
     </div>
