@@ -242,7 +242,7 @@ const Contactus = () => {
       <Container
         fluid
         className="d-flex align-items-center justify-content-center"
-        style={{ height: "50vh", backgroundColor: "#0a0f0a" }}
+        style={{ height: "40vh", backgroundColor: "#0a0f0a" }}
       >
         <div className="text-center">
           <hr
