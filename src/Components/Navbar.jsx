@@ -44,27 +44,27 @@ function Navbar() {
           id="navbarNav"
         >
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item" style={{fontWeight:"bold"}}>
               <Link className="nav-link" to="/" onClick={() => setIsOpen(false)}>
                 HOME
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" style={{fontWeight:"bold"}}>
               <Link className="nav-link" to="/About" onClick={() => setIsOpen(false)}>
                 ABOUT
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" style={{fontWeight:"bold"}}>
               <Link className="nav-link" to="/Services" onClick={() => setIsOpen(false)}>
                 SERVICES
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" style={{fontWeight:"bold"}}>
               <Link className="nav-link" to="/OurCompanies" onClick={() => setIsOpen(false)}>
                 OUR COMPANIES
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" style={{fontWeight:"bold"}}>
               <Link className="nav-link" to="/ContactUs" onClick={() => setIsOpen(false)}>
                 CONTACT US
               </Link>
