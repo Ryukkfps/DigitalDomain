@@ -237,7 +237,7 @@ const OurCompanies = () => {
           <h1
             style={{ color: "black", fontSize: "2.3rem", fontWeight: "bold" }}
           >
-            Our Companies
+            Associated Companies
           </h1>
           <p>
             Explore a world of creative solutions and innovation tailored to
