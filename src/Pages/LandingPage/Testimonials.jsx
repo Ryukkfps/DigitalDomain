@@ -1,4 +1,4 @@
-import React from "react";
+import {React} from "react";
 import "./Testimonials.css";
 
 const testimonials = [
@@ -26,6 +26,13 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
+    <><div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}>
+        <img
+          src="https://res.cloudinary.com/appbuilder/image/upload/v1774867654/amplify-impact/certificates/a369381a-43c8-430d-be67-825d5df66913.png"
+          style={{ width: "100%", maxWidth: "800px", height: "auto" }}
+          alt="Certificate"
+        />
+      </div>
     <div className="testimonials-section">
       <h2>Client Testimonials</h2>
       <p>See what our satisfied customers have to say about their experience with Tritech Enterprises.</p>
@@ -38,7 +45,8 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div></>
+    
   );
 };
 
